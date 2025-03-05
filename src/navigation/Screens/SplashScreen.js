@@ -14,7 +14,7 @@ const SplashScreen = ({ navigation }) => {
     <View style={styles.screen}>
       <View style={styles.card}>
         {/* Ensure the image path is correct */}
-        <Image source={require('../../assets/logo.png')} style={styles.icon} />
+        <Image source={require('/Flexi/assets/logo.png')} style={styles.icon} />
       </View>
       <Text style={styles.text}>Flexi</Text>
     </View>
